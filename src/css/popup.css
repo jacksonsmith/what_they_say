@@ -61,7 +61,6 @@ button:focus {
     margin-bottom: 1em;
 }
   
-
 select {
     border: 1px solid lightgrey;
     font-size: 12px;
@@ -91,6 +90,12 @@ select {
     height: 80px;
     border-radius: 4px;
     background-color: #ffffff;
+    display: flex
+  }
+
+  .player-logo {
+      width: 80px;
+      height: 80px;
   }
 
 .blue_bg {
@@ -102,6 +107,7 @@ select {
   }
 
   .blue_bg span {
+    margin-left: 8px;
     width: 37px;
     height: 15px;
     font-family: Montserrat;
@@ -121,3 +127,42 @@ select {
     margin: 16px;
   }
   
+  .play-group {
+    display: flex;
+    align-items:center;
+    padding-left: 16px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .play-circle {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+
+  .play-image-text-group {
+    display: flex;
+    align-items:center;
+  }
+
+  .play-timer {
+    width: 42px;
+    height: 18px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+  }
+
+  .play-circle-record {
+    margin-left: 88px;
+    width: 4px;
+    height: 4px;
+    object-fit: contain;
+  }
